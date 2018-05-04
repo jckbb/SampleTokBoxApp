@@ -1,0 +1,704 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		079B167EEEFC5BA6C5B5BF14572353D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 572DBE63D5360AB71E5F80F979738FD0 /* Foundation.framework */; };
+		1AF3D687EC8812307B181A213CAE890B /* Pods-TaskTokBoxApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D15CE0EB91311F5FE48094D1A97D44BE /* Pods-TaskTokBoxApp-dummy.m */; };
+		47CB38DEDD3187152F03871C8FB66BEF /* Pods-TaskTokBoxApp-tvOSTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A46DF97F7F79A6303EA3B42FB2429C8 /* Pods-TaskTokBoxApp-tvOSTests-dummy.m */; };
+		622DF099D41B3551C2BB89EC851DC3B9 /* Pods-TaskTokBoxAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 447B6013651B1BD599A3602EA1BF74DA /* Pods-TaskTokBoxAppTests-dummy.m */; };
+		8163FF961E9E62EE15B3CE31C0B642ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D154F4805B9715F0E6D79B0363CE280 /* Foundation.framework */; };
+		923BEEA362AAE1B5DB965D5CA9EF0FE5 /* Pods-TaskTokBoxApp-tvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF1007FB70B42929665867F34889F138 /* Pods-TaskTokBoxApp-tvOS-dummy.m */; };
+		E3701757F05D6355DE8D4025F65C7ABA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 572DBE63D5360AB71E5F80F979738FD0 /* Foundation.framework */; };
+		F6B1BCEF356E2BEFA58A8ADEF2A45D30 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D154F4805B9715F0E6D79B0363CE280 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		08C14C1AEE610A7D499692A35B8A7BEA /* Pods-TaskTokBoxAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TaskTokBoxAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0A46DF97F7F79A6303EA3B42FB2429C8 /* Pods-TaskTokBoxApp-tvOSTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TaskTokBoxApp-tvOSTests-dummy.m"; sourceTree = "<group>"; };
+		0E626E1356D41EF91B9EB4F3222305D8 /* Pods-TaskTokBoxApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TaskTokBoxApp.release.xcconfig"; sourceTree = "<group>"; };
+		12EA04886CED804C96F0DFA6CD37524A /* Pods-TaskTokBoxApp-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TaskTokBoxApp-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1466199B2891BFD1D46BE59AC69C7FA9 /* Pods-TaskTokBoxApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TaskTokBoxApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1503EF2855B786CB6450FE96B1CBA7A5 /* Pods-TaskTokBoxApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TaskTokBoxApp.debug.xcconfig"; sourceTree = "<group>"; };
+		181013DBA647D5B6064BDFABF823DF01 /* Pods-TaskTokBoxApp-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TaskTokBoxApp-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		1AEA0A5276EE9991A9B61A6EB7630528 /* Pods-TaskTokBoxApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TaskTokBoxApp-resources.sh"; sourceTree = "<group>"; };
+		1CA027327F8C08EF2B204B23779C946C /* Pods-TaskTokBoxApp-tvOSTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TaskTokBoxApp-tvOSTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1F934B0EB7BFE9AD433E42216935E020 /* Pods-TaskTokBoxApp-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TaskTokBoxApp-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		2D154F4805B9715F0E6D79B0363CE280 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		320F0F9E34C414AC53AB5FDA7B2CAA06 /* libPods-TaskTokBoxApp-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TaskTokBoxApp-tvOSTests.a"; path = "libPods-TaskTokBoxApp-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		381B3EC4435EB908E35BC705C44274F1 /* Pods-TaskTokBoxAppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TaskTokBoxAppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3DD64F5878F486C90761CDB08CBD7629 /* Pods-TaskTokBoxAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TaskTokBoxAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		3F6BA7133CDA16EBF75FA8DA73F15F59 /* OpenTok.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OpenTok.framework; sourceTree = "<group>"; };
+		447B6013651B1BD599A3602EA1BF74DA /* Pods-TaskTokBoxAppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TaskTokBoxAppTests-dummy.m"; sourceTree = "<group>"; };
+		51D03AC5F96B025F52F0DA742A9D516A /* libPods-TaskTokBoxApp-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TaskTokBoxApp-tvOS.a"; path = "libPods-TaskTokBoxApp-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53529EEAAC0DEB54B7D90F18522EBEED /* Pods-TaskTokBoxAppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TaskTokBoxAppTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		572DBE63D5360AB71E5F80F979738FD0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS10.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		78144935F5BFE6E8DFF16716A15C0FCC /* Pods-TaskTokBoxApp-tvOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TaskTokBoxApp-tvOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		797CFC16BD60319D6AC43C9815785871 /* Pods-TaskTokBoxApp-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TaskTokBoxApp-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		8A5C55446F8BABEC00F038C5F0790563 /* Pods-TaskTokBoxApp-tvOSTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TaskTokBoxApp-tvOSTests-resources.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9543FD0A5C0DEB45F19061540AA50F82 /* libPods-TaskTokBoxApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TaskTokBoxApp.a"; path = "libPods-TaskTokBoxApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FE83BA41ED2A8DCC30445E532EFDDC3 /* libPods-TaskTokBoxAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TaskTokBoxAppTests.a"; path = "libPods-TaskTokBoxAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A44689E58B8B32466ADC49A71ECAF250 /* Pods-TaskTokBoxApp-tvOSTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TaskTokBoxApp-tvOSTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AF1007FB70B42929665867F34889F138 /* Pods-TaskTokBoxApp-tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TaskTokBoxApp-tvOS-dummy.m"; sourceTree = "<group>"; };
+		B661B7ED43AF0D48A3E365914D7129B5 /* Pods-TaskTokBoxApp-tvOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TaskTokBoxApp-tvOS-frameworks.sh"; sourceTree = "<group>"; };
+		B9D8A8F2AFB041993F05474B1DD64DE9 /* Pods-TaskTokBoxApp-tvOSTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TaskTokBoxApp-tvOSTests-frameworks.sh"; sourceTree = "<group>"; };
+		BEBA85B41CC1A30D69F32CB41B7F5D80 /* Pods-TaskTokBoxApp-tvOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TaskTokBoxApp-tvOS-resources.sh"; sourceTree = "<group>"; };
+		C1F0F994FA537114BA59610CC1826C27 /* Pods-TaskTokBoxAppTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TaskTokBoxAppTests-frameworks.sh"; sourceTree = "<group>"; };
+		CF6D6000C87597BBC1AA47E28CF5C62C /* Pods-TaskTokBoxApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TaskTokBoxApp-frameworks.sh"; sourceTree = "<group>"; };
+		D1293EDDB31C1273BECB802526C84934 /* Pods-TaskTokBoxApp-tvOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TaskTokBoxApp-tvOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		D15CE0EB91311F5FE48094D1A97D44BE /* Pods-TaskTokBoxApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TaskTokBoxApp-dummy.m"; sourceTree = "<group>"; };
+		DBC96AF64280514C6C9191954FE67267 /* Pods-TaskTokBoxAppTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TaskTokBoxAppTests-resources.sh"; sourceTree = "<group>"; };
+		F5D37B6D0D5BAE58C4690F6FCB22142D /* Pods-TaskTokBoxApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TaskTokBoxApp-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C55B88D82912815C65885DE5EED7692 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6B1BCEF356E2BEFA58A8ADEF2A45D30 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64A268A88DA9DDFFDB536C62F0A8C81F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3701757F05D6355DE8D4025F65C7ABA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B4F725D8ACD46A85AA59402ACA696D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8163FF961E9E62EE15B3CE31C0B642ED /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE51D599FACE135CA1F788BCC0F92E0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				079B167EEEFC5BA6C5B5BF14572353D0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20F731AE46C73F232AF0C168DC383CF9 /* tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				572DBE63D5360AB71E5F80F979738FD0 /* Foundation.framework */,
+			);
+			name = tvOS;
+			sourceTree = "<group>";
+		};
+		30D26C117FB42284DFF2ABC767DE401F /* Pods-TaskTokBoxApp-tvOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				A44689E58B8B32466ADC49A71ECAF250 /* Pods-TaskTokBoxApp-tvOSTests-acknowledgements.markdown */,
+				1CA027327F8C08EF2B204B23779C946C /* Pods-TaskTokBoxApp-tvOSTests-acknowledgements.plist */,
+				0A46DF97F7F79A6303EA3B42FB2429C8 /* Pods-TaskTokBoxApp-tvOSTests-dummy.m */,
+				B9D8A8F2AFB041993F05474B1DD64DE9 /* Pods-TaskTokBoxApp-tvOSTests-frameworks.sh */,
+				8A5C55446F8BABEC00F038C5F0790563 /* Pods-TaskTokBoxApp-tvOSTests-resources.sh */,
+				12EA04886CED804C96F0DFA6CD37524A /* Pods-TaskTokBoxApp-tvOSTests.debug.xcconfig */,
+				181013DBA647D5B6064BDFABF823DF01 /* Pods-TaskTokBoxApp-tvOSTests.release.xcconfig */,
+			);
+			name = "Pods-TaskTokBoxApp-tvOSTests";
+			path = "Target Support Files/Pods-TaskTokBoxApp-tvOSTests";
+			sourceTree = "<group>";
+		};
+		3DAF2968071E9A92588CA9C811BE7739 /* Pods-TaskTokBoxApp */ = {
+			isa = PBXGroup;
+			children = (
+				1466199B2891BFD1D46BE59AC69C7FA9 /* Pods-TaskTokBoxApp-acknowledgements.markdown */,
+				F5D37B6D0D5BAE58C4690F6FCB22142D /* Pods-TaskTokBoxApp-acknowledgements.plist */,
+				D15CE0EB91311F5FE48094D1A97D44BE /* Pods-TaskTokBoxApp-dummy.m */,
+				CF6D6000C87597BBC1AA47E28CF5C62C /* Pods-TaskTokBoxApp-frameworks.sh */,
+				1AEA0A5276EE9991A9B61A6EB7630528 /* Pods-TaskTokBoxApp-resources.sh */,
+				1503EF2855B786CB6450FE96B1CBA7A5 /* Pods-TaskTokBoxApp.debug.xcconfig */,
+				0E626E1356D41EF91B9EB4F3222305D8 /* Pods-TaskTokBoxApp.release.xcconfig */,
+			);
+			name = "Pods-TaskTokBoxApp";
+			path = "Target Support Files/Pods-TaskTokBoxApp";
+			sourceTree = "<group>";
+		};
+		45E1E37DE698FDE117B0AD340DD3B4E9 /* Pods-TaskTokBoxAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				381B3EC4435EB908E35BC705C44274F1 /* Pods-TaskTokBoxAppTests-acknowledgements.markdown */,
+				53529EEAAC0DEB54B7D90F18522EBEED /* Pods-TaskTokBoxAppTests-acknowledgements.plist */,
+				447B6013651B1BD599A3602EA1BF74DA /* Pods-TaskTokBoxAppTests-dummy.m */,
+				C1F0F994FA537114BA59610CC1826C27 /* Pods-TaskTokBoxAppTests-frameworks.sh */,
+				DBC96AF64280514C6C9191954FE67267 /* Pods-TaskTokBoxAppTests-resources.sh */,
+				08C14C1AEE610A7D499692A35B8A7BEA /* Pods-TaskTokBoxAppTests.debug.xcconfig */,
+				3DD64F5878F486C90761CDB08CBD7629 /* Pods-TaskTokBoxAppTests.release.xcconfig */,
+			);
+			name = "Pods-TaskTokBoxAppTests";
+			path = "Target Support Files/Pods-TaskTokBoxAppTests";
+			sourceTree = "<group>";
+		};
+		58996781A54EE964D7111D73083A18A5 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2D154F4805B9715F0E6D79B0363CE280 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5B3E43F17A71259177DCFE4CC16D4205 /* Pods-TaskTokBoxApp-tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				78144935F5BFE6E8DFF16716A15C0FCC /* Pods-TaskTokBoxApp-tvOS-acknowledgements.markdown */,
+				D1293EDDB31C1273BECB802526C84934 /* Pods-TaskTokBoxApp-tvOS-acknowledgements.plist */,
+				AF1007FB70B42929665867F34889F138 /* Pods-TaskTokBoxApp-tvOS-dummy.m */,
+				B661B7ED43AF0D48A3E365914D7129B5 /* Pods-TaskTokBoxApp-tvOS-frameworks.sh */,
+				BEBA85B41CC1A30D69F32CB41B7F5D80 /* Pods-TaskTokBoxApp-tvOS-resources.sh */,
+				1F934B0EB7BFE9AD433E42216935E020 /* Pods-TaskTokBoxApp-tvOS.debug.xcconfig */,
+				797CFC16BD60319D6AC43C9815785871 /* Pods-TaskTokBoxApp-tvOS.release.xcconfig */,
+			);
+			name = "Pods-TaskTokBoxApp-tvOS";
+			path = "Target Support Files/Pods-TaskTokBoxApp-tvOS";
+			sourceTree = "<group>";
+		};
+		6D5298F7A56BBBA6485A1835829A60B0 /* OpenTok */ = {
+			isa = PBXGroup;
+			children = (
+				E1658FF23B63AE05533C82B9122A463A /* Frameworks */,
+			);
+			name = OpenTok;
+			path = OpenTok;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				A42F72DC1D780481325DD00969B19BB6 /* Frameworks */,
+				C5E6EBA5D78424BA468E339EC7E6C57E /* Pods */,
+				C803BCAC676C57877292D5F328084C3F /* Products */,
+				9A87270159181B3DE9BABA293D0D9BC0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9A87270159181B3DE9BABA293D0D9BC0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3DAF2968071E9A92588CA9C811BE7739 /* Pods-TaskTokBoxApp */,
+				5B3E43F17A71259177DCFE4CC16D4205 /* Pods-TaskTokBoxApp-tvOS */,
+				30D26C117FB42284DFF2ABC767DE401F /* Pods-TaskTokBoxApp-tvOSTests */,
+				45E1E37DE698FDE117B0AD340DD3B4E9 /* Pods-TaskTokBoxAppTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A42F72DC1D780481325DD00969B19BB6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58996781A54EE964D7111D73083A18A5 /* iOS */,
+				20F731AE46C73F232AF0C168DC383CF9 /* tvOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C5E6EBA5D78424BA468E339EC7E6C57E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6D5298F7A56BBBA6485A1835829A60B0 /* OpenTok */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C803BCAC676C57877292D5F328084C3F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9543FD0A5C0DEB45F19061540AA50F82 /* libPods-TaskTokBoxApp.a */,
+				51D03AC5F96B025F52F0DA742A9D516A /* libPods-TaskTokBoxApp-tvOS.a */,
+				320F0F9E34C414AC53AB5FDA7B2CAA06 /* libPods-TaskTokBoxApp-tvOSTests.a */,
+				9FE83BA41ED2A8DCC30445E532EFDDC3 /* libPods-TaskTokBoxAppTests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1658FF23B63AE05533C82B9122A463A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F6BA7133CDA16EBF75FA8DA73F15F59 /* OpenTok.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		321315EB1F775AB416B2274DAE67E3B4 /* Pods-TaskTokBoxApp-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA19AEDC905A58C2C8C7929E033A7474 /* Build configuration list for PBXNativeTarget "Pods-TaskTokBoxApp-tvOS" */;
+			buildPhases = (
+				152EFB128C71D4B315926F84A409BBDF /* Sources */,
+				BE51D599FACE135CA1F788BCC0F92E0F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TaskTokBoxApp-tvOS";
+			productName = "Pods-TaskTokBoxApp-tvOS";
+			productReference = 51D03AC5F96B025F52F0DA742A9D516A /* libPods-TaskTokBoxApp-tvOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AB439A383E5B79E55EB7E7D6D36890E9 /* Pods-TaskTokBoxApp-tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7D133D53E33A456F845AA306BBC9CF0 /* Build configuration list for PBXNativeTarget "Pods-TaskTokBoxApp-tvOSTests" */;
+			buildPhases = (
+				E78EBCE46B2213129F8B44C60E7070BF /* Sources */,
+				64A268A88DA9DDFFDB536C62F0A8C81F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TaskTokBoxApp-tvOSTests";
+			productName = "Pods-TaskTokBoxApp-tvOSTests";
+			productReference = 320F0F9E34C414AC53AB5FDA7B2CAA06 /* libPods-TaskTokBoxApp-tvOSTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DE4035E7DEAE20E32AAFA0BDF29B9A52 /* Pods-TaskTokBoxApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B513803878C98DA19BB3A9C027115160 /* Build configuration list for PBXNativeTarget "Pods-TaskTokBoxApp" */;
+			buildPhases = (
+				29499F2EADB6AC96B9664E593ADC643B /* Sources */,
+				5C55B88D82912815C65885DE5EED7692 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TaskTokBoxApp";
+			productName = "Pods-TaskTokBoxApp";
+			productReference = 9543FD0A5C0DEB45F19061540AA50F82 /* libPods-TaskTokBoxApp.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FC7DEE18EA8E0CF24795314B366BDC70 /* Pods-TaskTokBoxAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23F09D4D055B46C9DF4998D039682777 /* Build configuration list for PBXNativeTarget "Pods-TaskTokBoxAppTests" */;
+			buildPhases = (
+				4B88A490267E1CD382C54DB493ABCBC2 /* Sources */,
+				9B4F725D8ACD46A85AA59402ACA696D6 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TaskTokBoxAppTests";
+			productName = "Pods-TaskTokBoxAppTests";
+			productReference = 9FE83BA41ED2A8DCC30445E532EFDDC3 /* libPods-TaskTokBoxAppTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = C803BCAC676C57877292D5F328084C3F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE4035E7DEAE20E32AAFA0BDF29B9A52 /* Pods-TaskTokBoxApp */,
+				321315EB1F775AB416B2274DAE67E3B4 /* Pods-TaskTokBoxApp-tvOS */,
+				AB439A383E5B79E55EB7E7D6D36890E9 /* Pods-TaskTokBoxApp-tvOSTests */,
+				FC7DEE18EA8E0CF24795314B366BDC70 /* Pods-TaskTokBoxAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		152EFB128C71D4B315926F84A409BBDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				923BEEA362AAE1B5DB965D5CA9EF0FE5 /* Pods-TaskTokBoxApp-tvOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29499F2EADB6AC96B9664E593ADC643B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AF3D687EC8812307B181A213CAE890B /* Pods-TaskTokBoxApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B88A490267E1CD382C54DB493ABCBC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				622DF099D41B3551C2BB89EC851DC3B9 /* Pods-TaskTokBoxAppTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E78EBCE46B2213129F8B44C60E7070BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47CB38DEDD3187152F03871C8FB66BEF /* Pods-TaskTokBoxApp-tvOSTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1A15F2823E31A3210FE31A7B90D32B8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		39A485195E3407E8392BFC081CE8530B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Release;
+		};
+		3CBFBFCA4227B122F3679F739A1FBC3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 181013DBA647D5B6064BDFABF823DF01 /* Pods-TaskTokBoxApp-tvOSTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E19926D73147F6F6E1A33854B74869C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DD64F5878F486C90761CDB08CBD7629 /* Pods-TaskTokBoxAppTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		783DC7A5A37ADC6A19DB7254382ED1A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E626E1356D41EF91B9EB4F3222305D8 /* Pods-TaskTokBoxApp.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7DCC21518FCB44A8E791AA1544C76353 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 797CFC16BD60319D6AC43C9815785871 /* Pods-TaskTokBoxApp-tvOS.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		868AF58395A27E0F762366D1AAFA2CDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08C14C1AEE610A7D499692A35B8A7BEA /* Pods-TaskTokBoxAppTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8C696E497B533B60DF8E3F0AB9E9C93C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1503EF2855B786CB6450FE96B1CBA7A5 /* Pods-TaskTokBoxApp.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9EE53A2B47DD54A06810F33DCBA6A44C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F934B0EB7BFE9AD433E42216935E020 /* Pods-TaskTokBoxApp-tvOS.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		CBCFB9748702C322A943B5B1AE90FC07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12EA04886CED804C96F0DFA6CD37524A /* Pods-TaskTokBoxApp-tvOSTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23F09D4D055B46C9DF4998D039682777 /* Build configuration list for PBXNativeTarget "Pods-TaskTokBoxAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				868AF58395A27E0F762366D1AAFA2CDE /* Debug */,
+				5E19926D73147F6F6E1A33854B74869C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A15F2823E31A3210FE31A7B90D32B8F /* Debug */,
+				39A485195E3407E8392BFC081CE8530B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA19AEDC905A58C2C8C7929E033A7474 /* Build configuration list for PBXNativeTarget "Pods-TaskTokBoxApp-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EE53A2B47DD54A06810F33DCBA6A44C /* Debug */,
+				7DCC21518FCB44A8E791AA1544C76353 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B513803878C98DA19BB3A9C027115160 /* Build configuration list for PBXNativeTarget "Pods-TaskTokBoxApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C696E497B533B60DF8E3F0AB9E9C93C /* Debug */,
+				783DC7A5A37ADC6A19DB7254382ED1A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7D133D53E33A456F845AA306BBC9CF0 /* Build configuration list for PBXNativeTarget "Pods-TaskTokBoxApp-tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBCFB9748702C322A943B5B1AE90FC07 /* Debug */,
+				3CBFBFCA4227B122F3679F739A1FBC3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
